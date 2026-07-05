@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="800" viewBox="0 0 800 800">
+  <rect width="800" height="800" rx="48" fill="#110a23"/>
+  <rect x="90" y="90" width="620" height="620" rx="36" fill="#24153d"/>
+  <circle cx="300" cy="300" r="110" fill="#ff7eb6" opacity="0.85"/>
+  <circle cx="500" cy="300" r="110" fill="#7edcff" opacity="0.85"/>
+  <path d="M250 620c70-100 160-150 250-150s180 50 250 150" fill="#fff4fb" opacity="0.75"/>
+  <text x="400" y="710" text-anchor="middle" font-family="Verdana" font-size="38" fill="#fff4fb">Gülüşün</text>
+</svg>

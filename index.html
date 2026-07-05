@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="tr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>İyi ki Doğdun Kocam</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Poppins:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <main class="page-shell">
+      <section class="scene intro active" data-scene="intro">
+        <div class="sky"></div>
+        <div class="stars"></div>
+        <div class="heart heart-a"></div>
+        <div class="heart heart-b"></div>
+        <div class="heart heart-c"></div>
+        <div class="intro-card">
+          <p class="eyebrow">🎂</p>
+          <h1>İyi ki Doğdun Kocam</h1>
+          <div class="line-stack">
+            <span>Bugün dünyanın en yakışıklı insanının doğum günü</span>
+          </div>
+        </div>
+      </section>
+
+      <section class="scene envelope-scene" data-scene="envelope">
+        <div class="scene-glow"></div>
+        <div class="envelope-wrap">
+          <div class="envelope" id="envelope" role="button" tabindex="0" aria-label="Zarfa dokun">
+            <div class="envelope-body">
+              <span class="seal">23 ♥</span>
+              <p>Bana dokun...</p>
+            </div>
+          </div>
+          <div class="confetti-layer" aria-hidden="true"></div>
+        </div>
+      </section>
+
+      <section class="scene letter-scene" data-scene="letter">
+        <div class="letter-card">
+          <p class="letter-pre">💌</p>
+          <div class="letter-paper">
+            <div class="letter-text" id="letterText">
+              <div class="letter-text-inner" id="letterTextInner"></div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="scene countdown-scene" data-scene="countdown">
+        <div class="countdown-card">
+          <h2>3 Nisan 2025'ten beri</h2>
+          <div class="countdown-grid">
+            <div><span id="days">00</span><small>gün</small></div>
+            <div><span id="hours">00</span><small>saat</small></div>
+            <div><span id="minutes">00</span><small>dakika</small></div>
+            <div><span id="seconds">00</span><small>saniye</small></div>
+          </div>
+          <p>Ve her geçen saniye seni biraz daha çok seviyorum...</p>
+        </div>
+      </section>
+
+      <section class="scene gallery-scene" data-scene="gallery">
+        <div class="gallery-card">
+          <h2>Polaroid Anılar</h2>
+          <div class="gallery-grid">
+            <article class="polaroid">
+              <img src="assets/photo-1.png" alt="Fotoğraf 1" data-full="assets/photo-1.png" />
+              <p>Seninle her an daha güzel</p>
+            </article>
+            <article class="polaroid tilt-two">
+              <img src="assets/photo-2.png" alt="Fotoğraf 2" data-full="assets/photo-2.png" />
+              <p>Sevginin en özel izleri</p>
+            </article>
+            <article class="polaroid tilt-three">
+              <img src="assets/photo-3.png" alt="Fotoğraf 3" data-full="assets/photo-3.png" />
+              <p>Gülüşünle aydınlanan günler</p>
+            </article>
+            <article class="polaroid">
+              <img src="assets/photo-4.png" alt="Fotoğraf 4" data-full="assets/photo-4.png" />
+              <p>Kalbim seninle huzur buldu</p>
+            </article>
+            <article class="polaroid tilt-two">
+              <img src="assets/photo-5.png" alt="Fotoğraf 5" data-full="assets/photo-5.png" />
+              <p>Aşkımızın en güzel anları</p>
+            </article>
+            <article class="polaroid tilt-three">
+              <img src="assets/photo-6.png" alt="Fotoğraf 6" data-full="assets/photo-6.png" />
+              <p>Bir bakışın yetiyor</p>
+            </article>
+            <article class="polaroid">
+              <img src="assets/photo-7.png" alt="Fotoğraf 7" data-full="assets/photo-7.png" />
+              <p>Sevgiyle dolu hatıralar</p>
+            </article>
+            <article class="polaroid tilt-two">
+              <img src="assets/photo-8.png" alt="Fotoğraf 8" data-full="assets/photo-8.png" />
+              <p>Seninle her şey daha anlamlı</p>
+            </article>
+            <article class="polaroid tilt-three">
+              <img src="assets/photo-9.png" alt="Fotoğraf 9" data-full="assets/photo-9.png" />
+              <p>Ruh eşim, sevgilim</p>
+            </article>
+            <article class="polaroid">
+              <img src="assets/photo-10.png" alt="Fotoğraf 10" data-full="assets/photo-10.png" />
+              <p>Hep seninle, her zaman</p>
+            </article>
+          </div>
+          <div class="gallery-actions">
+            <button class="gallery-heart-btn" id="galleryHeartBtn" type="button" aria-label="Sonraki bölüme git">♡</button>
+          </div>
+        </div>
+      </section>
+
+      <section class="scene memory-scene" data-scene="memory">
+        <div class="memory-card">
+          <h2>Hatıra</h2>
+          <div class="memory-copy">
+            <p>Sevgi, zamanla daha da derinleşir. Seninle geçen her an, hayatımın en güzel hatırası oldu.</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="scene finale-scene" data-scene="finale">
+        <div class="finale-heart" id="finalHeart">♡</div>
+        <div class="ending-text" id="endingText"></div>
+      </section>
+    </main>
+
+    <div class="confetti-layer" id="confettiLayer" aria-hidden="true"></div>
+
+    <div class="mini-player" aria-label="Spotify müzik çalar">
+      <iframe
+        id="spotifyPlayer"
+        src="https://open.spotify.com/embed/track/7Ev847aM6udt8KQRyMUOkE?utm_source=generator&si=d9d9604234af497e&autoplay=1"
+        width="280"
+        height="80"
+        frameborder="0"
+        allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+        loading="lazy"
+      ></iframe>
+    </div>
+
+    <div class="photo-modal" id="photoModal" aria-hidden="true">
+      <button class="photo-modal-close" id="photoModalClose">×</button>
+      <img src="" alt="Fotoğraf tam ekran" id="modalImage" />
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>

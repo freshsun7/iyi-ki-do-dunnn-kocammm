@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="800" viewBox="0 0 800 800">
+  <rect width="800" height="800" rx="48" fill="#241038"/>
+  <rect x="90" y="90" width="620" height="620" rx="36" fill="#2f1748"/>
+  <circle cx="400" cy="310" r="160" fill="#ff86b4" opacity="0.9"/>
+  <circle cx="400" cy="310" r="110" fill="#ffe1ef" opacity="0.95"/>
+  <path d="M230 640c70-120 140-180 170-180s100 60 170 180" fill="#ffffff" opacity="0.7"/>
+  <text x="400" y="720" text-anchor="middle" font-family="Verdana" font-size="44" fill="#ffe1ef">Seninle</text>
+</svg>
